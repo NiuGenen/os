@@ -1,0 +1,703 @@
+---- HARDWARE INFO --
+Physical Block Nr               500
+Physical Block SIZE            2048 B
+---- FILE SYSTEM ----
+File Max Size:                10240 B
+File Min Size:                 2048 B
+File Node Size:                  48 B
+File Max Name length:            16
+File Max Nr:                     85
+
+FREE BLOCK Table
+BLOCK[0] stores freeBlockTable
+Block[1]&[2] stores all file heads
+TOP:   497 BOTTOM:     0
+    3     4     5     6     7     8     9    10    11    12 
+   13    14    15    16    17    18    19    20    21    22 
+   23    24    25    26    27    28    29    30    31    32 
+   33    34    35    36    37    38    39    40    41    42 
+   43    44    45    46    47    48    49    50    51    52 
+   53    54    55    56    57    58    59    60    61    62 
+   63    64    65    66    67    68    69    70    71    72 
+   73    74    75    76    77    78    79    80    81    82 
+   83    84    85    86    87    88    89    90    91    92 
+   93    94    95    96    97    98    99   100   101   102 
+  103   104   105   106   107   108   109   110   111   112 
+  113   114   115   116   117   118   119   120   121   122 
+  123   124   125   126   127   128   129   130   131   132 
+  133   134   135   136   137   138   139   140   141   142 
+  143   144   145   146   147   148   149   150   151   152 
+  153   154   155   156   157   158   159   160   161   162 
+  163   164   165   166   167   168   169   170   171   172 
+  173   174   175   176   177   178   179   180   181   182 
+  183   184   185   186   187   188   189   190   191   192 
+  193   194   195   196   197   198   199   200   201   202 
+  203   204   205   206   207   208   209   210   211   212 
+  213   214   215   216   217   218   219   220   221   222 
+  223   224   225   226   227   228   229   230   231   232 
+  233   234   235   236   237   238   239   240   241   242 
+  243   244   245   246   247   248   249   250   251   252 
+  253   254   255   256   257   258   259   260   261   262 
+  263   264   265   266   267   268   269   270   271   272 
+  273   274   275   276   277   278   279   280   281   282 
+  283   284   285   286   287   288   289   290   291   292 
+  293   294   295   296   297   298   299   300   301   302 
+  303   304   305   306   307   308   309   310   311   312 
+  313   314   315   316   317   318   319   320   321   322 
+  323   324   325   326   327   328   329   330   331   332 
+  333   334   335   336   337   338   339   340   341   342 
+  343   344   345   346   347   348   349   350   351   352 
+  353   354   355   356   357   358   359   360   361   362 
+  363   364   365   366   367   368   369   370   371   372 
+  373   374   375   376   377   378   379   380   381   382 
+  383   384   385   386   387   388   389   390   391   392 
+  393   394   395   396   397   398   399   400   401   402 
+  403   404   405   406   407   408   409   410   411   412 
+  413   414   415   416   417   418   419   420   421   422 
+  423   424   425   426   427   428   429   430   431   432 
+  433   434   435   436   437   438   439   440   441   442 
+  443   444   445   446   447   448   449   450   451   452 
+  453   454   455   456   457   458   459   460   461   462 
+  463   464   465   466   467   468   469   470   471   472 
+  473   474   475   476   477   478   479   480   481   482 
+  483   484   485   486   487   488   489   490   491   492 
+  493   494   495   496   497   498   499 
+
+create file:1.txt
+file size: 6255
+generate file node:1
+file block nr:4
+store in block: 3
+store in block: 4
+store in block: 5
+store in block: 6
+
+create file:2.txt
+file size: 4068
+generate file node:2
+file block nr:2
+store in block: 7
+store in block: 8
+
+create file:3.txt
+file size: 2759
+generate file node:3
+file block nr:2
+store in block: 9
+store in block: 10
+
+create file:4.txt
+file size: 4241
+generate file node:4
+file block nr:3
+store in block: 11
+store in block: 12
+store in block: 13
+
+create file:5.txt
+file size: 3715
+generate file node:5
+file block nr:2
+store in block: 14
+store in block: 15
+
+create file:6.txt
+file size: 4262
+generate file node:6
+file block nr:3
+store in block: 16
+store in block: 17
+store in block: 18
+
+create file:7.txt
+file size: 3429
+generate file node:7
+file block nr:2
+store in block: 19
+store in block: 20
+
+create file:8.txt
+file size: 6412
+generate file node:8
+file block nr:4
+store in block: 21
+store in block: 22
+store in block: 23
+store in block: 24
+
+create file:9.txt
+file size: 6054
+generate file node:9
+file block nr:3
+store in block: 25
+store in block: 26
+store in block: 27
+
+create file:10.txt
+file size: 7623
+generate file node:10
+file block nr:4
+store in block: 28
+store in block: 29
+store in block: 30
+store in block: 31
+
+create file:11.txt
+file size: 4221
+generate file node:11
+file block nr:3
+store in block: 32
+store in block: 33
+store in block: 34
+
+create file:12.txt
+file size: 8715
+generate file node:12
+file block nr:5
+store in block: 35
+store in block: 36
+store in block: 37
+store in block: 38
+store in block: 39
+
+create file:13.txt
+file size: 2232
+generate file node:13
+file block nr:2
+store in block: 40
+store in block: 41
+
+create file:14.txt
+file size: 3901
+generate file node:14
+file block nr:2
+store in block: 42
+store in block: 43
+
+create file:15.txt
+file size: 9901
+generate file node:15
+file block nr:5
+store in block: 44
+store in block: 45
+store in block: 46
+store in block: 47
+store in block: 48
+
+create file:16.txt
+file size: 6792
+generate file node:16
+file block nr:4
+store in block: 49
+store in block: 50
+store in block: 51
+store in block: 52
+
+create file:17.txt
+file size: 6616
+generate file node:17
+file block nr:4
+store in block: 53
+store in block: 54
+store in block: 55
+store in block: 56
+
+create file:18.txt
+file size: 6645
+generate file node:18
+file block nr:4
+store in block: 57
+store in block: 58
+store in block: 59
+store in block: 60
+
+create file:19.txt
+file size: 9178
+generate file node:19
+file block nr:5
+store in block: 61
+store in block: 62
+store in block: 63
+store in block: 64
+store in block: 65
+
+create file:20.txt
+file size: 3899
+generate file node:20
+file block nr:2
+store in block: 66
+store in block: 67
+
+create file:21.txt
+file size: 7029
+generate file node:21
+file block nr:4
+store in block: 68
+store in block: 69
+store in block: 70
+store in block: 71
+
+create file:22.txt
+file size: 3082
+generate file node:22
+file block nr:2
+store in block: 72
+store in block: 73
+
+create file:23.txt
+file size: 7488
+generate file node:23
+file block nr:4
+store in block: 74
+store in block: 75
+store in block: 76
+store in block: 77
+
+create file:24.txt
+file size: 8772
+generate file node:24
+file block nr:5
+store in block: 78
+store in block: 79
+store in block: 80
+store in block: 81
+store in block: 82
+
+create file:25.txt
+file size: 5231
+generate file node:25
+file block nr:3
+store in block: 83
+store in block: 84
+store in block: 85
+
+create file:26.txt
+file size: 6512
+generate file node:26
+file block nr:4
+store in block: 86
+store in block: 87
+store in block: 88
+store in block: 89
+
+create file:27.txt
+file size: 2642
+generate file node:27
+file block nr:2
+store in block: 90
+store in block: 91
+
+create file:28.txt
+file size: 9804
+generate file node:28
+file block nr:5
+store in block: 92
+store in block: 93
+store in block: 94
+store in block: 95
+store in block: 96
+
+create file:29.txt
+file size: 6665
+generate file node:29
+file block nr:4
+store in block: 97
+store in block: 98
+store in block: 99
+store in block: 100
+
+create file:30.txt
+file size: 8308
+generate file node:30
+file block nr:5
+store in block: 101
+store in block: 102
+store in block: 103
+store in block: 104
+store in block: 105
+
+create file:31.txt
+file size: 4272
+generate file node:31
+file block nr:3
+store in block: 106
+store in block: 107
+store in block: 108
+
+create file:32.txt
+file size: 2680
+generate file node:32
+file block nr:2
+store in block: 109
+store in block: 110
+
+create file:33.txt
+file size: 2136
+generate file node:33
+file block nr:2
+store in block: 111
+store in block: 112
+
+create file:34.txt
+file size: 4984
+generate file node:34
+file block nr:3
+store in block: 113
+store in block: 114
+store in block: 115
+
+create file:35.txt
+file size: 4873
+generate file node:35
+file block nr:3
+store in block: 116
+store in block: 117
+store in block: 118
+
+create file:36.txt
+file size: 3804
+generate file node:36
+file block nr:2
+store in block: 119
+store in block: 120
+
+create file:37.txt
+file size: 7198
+generate file node:37
+file block nr:4
+store in block: 121
+store in block: 122
+store in block: 123
+store in block: 124
+
+create file:38.txt
+file size: 6255
+generate file node:38
+file block nr:4
+store in block: 125
+store in block: 126
+store in block: 127
+store in block: 128
+
+create file:39.txt
+file size: 8168
+generate file node:39
+file block nr:4
+store in block: 129
+store in block: 130
+store in block: 131
+store in block: 132
+
+create file:40.txt
+file size: 3012
+generate file node:40
+file block nr:2
+store in block: 133
+store in block: 134
+
+create file:41.txt
+file size: 3638
+generate file node:41
+file block nr:2
+store in block: 135
+store in block: 136
+
+create file:42.txt
+file size: 2149
+generate file node:42
+file block nr:2
+store in block: 137
+store in block: 138
+
+create file:43.txt
+file size: 9680
+generate file node:43
+file block nr:5
+store in block: 139
+store in block: 140
+store in block: 141
+store in block: 142
+store in block: 143
+
+create file:44.txt
+file size: 3822
+generate file node:44
+file block nr:2
+store in block: 144
+store in block: 145
+
+create file:45.txt
+file size: 4003
+generate file node:45
+file block nr:2
+store in block: 146
+store in block: 147
+
+create file:46.txt
+file size: 9341
+generate file node:46
+file block nr:5
+store in block: 148
+store in block: 149
+store in block: 150
+store in block: 151
+store in block: 152
+
+create file:47.txt
+file size: 8566
+generate file node:47
+file block nr:5
+store in block: 153
+store in block: 154
+store in block: 155
+store in block: 156
+store in block: 157
+
+create file:48.txt
+file size: 8571
+generate file node:48
+file block nr:5
+store in block: 158
+store in block: 159
+store in block: 160
+store in block: 161
+store in block: 162
+
+create file:49.txt
+file size: 5747
+generate file node:49
+file block nr:3
+store in block: 163
+store in block: 164
+store in block: 165
+
+create file:50.txt
+file size: 7505
+generate file node:50
+file block nr:4
+store in block: 166
+store in block: 167
+store in block: 168
+store in block: 169
+
+delete file: 1.txt
+
+delete file: 3.txt
+
+delete file: 5.txt
+
+delete file: 7.txt
+
+delete file: 9.txt
+
+delete file: 11.txt
+
+delete file: 13.txt
+
+delete file: 15.txt
+
+delete file: 17.txt
+
+delete file: 19.txt
+
+delete file: 21.txt
+
+delete file: 23.txt
+
+delete file: 25.txt
+
+delete file: 27.txt
+
+delete file: 29.txt
+
+delete file: 31.txt
+
+delete file: 33.txt
+
+delete file: 35.txt
+
+delete file: 37.txt
+
+delete file: 39.txt
+
+delete file: 41.txt
+
+delete file: 43.txt
+
+delete file: 45.txt
+
+delete file: 47.txt
+
+delete file: 49.txt
+
+FREE BLOCK Table
+BLOCK[0] stores freeBlockTable
+Block[1]&[2] stores all file heads
+TOP:    79 BOTTOM:   167
+  170   171   172   173   174   175   176   177   178   179 
+  180   181   182   183   184   185   186   187   188   189 
+  190   191   192   193   194   195   196   197   198   199 
+  200   201   202   203   204   205   206   207   208   209 
+  210   211   212   213   214   215   216   217   218   219 
+  220   221   222   223   224   225   226   227   228   229 
+  230   231   232   233   234   235   236   237   238   239 
+  240   241   242   243   244   245   246   247   248   249 
+  250   251   252   253   254   255   256   257   258   259 
+  260   261   262   263   264   265   266   267   268   269 
+  270   271   272   273   274   275   276   277   278   279 
+  280   281   282   283   284   285   286   287   288   289 
+  290   291   292   293   294   295   296   297   298   299 
+  300   301   302   303   304   305   306   307   308   309 
+  310   311   312   313   314   315   316   317   318   319 
+  320   321   322   323   324   325   326   327   328   329 
+  330   331   332   333   334   335   336   337   338   339 
+  340   341   342   343   344   345   346   347   348   349 
+  350   351   352   353   354   355   356   357   358   359 
+  360   361   362   363   364   365   366   367   368   369 
+  370   371   372   373   374   375   376   377   378   379 
+  380   381   382   383   384   385   386   387   388   389 
+  390   391   392   393   394   395   396   397   398   399 
+  400   401   402   403   404   405   406   407   408   409 
+  410   411   412   413   414   415   416   417   418   419 
+  420   421   422   423   424   425   426   427   428   429 
+  430   431   432   433   434   435   436   437   438   439 
+  440   441   442   443   444   445   446   447   448   449 
+  450   451   452   453   454   455   456   457   458   459 
+  460   461   462   463   464   465   466   467   468   469 
+  470   471   472   473   474   475   476   477   478   479 
+  480   481   482   483   484   485   486   487   488   489 
+  490   491   492   493   494   495   496   497   498   499 
+    3     4     5     6     9    10    14    15    19    20 
+   25    26    27    32    33    34    40    41    44    45 
+   46    47    48    53    54    55    56    61    62    63 
+   64    65    68    69    70    71    74    75    76    77 
+   83    84    85    90    91    97    98    99   100   106 
+  107   108   111   112   116   117   118   121   122   123 
+  124   129   130   131   132   135   136   139   140   141 
+  142   143   146   147   153   154   155   156   157   163 
+  164   165 
+
+create file:F1.txt
+file size: 7168
+generate file node:51
+file block nr:4
+store in block: 170
+store in block: 171
+store in block: 172
+store in block: 173
+
+create file:F2.txt
+file size: 5120
+generate file node:52
+file block nr:3
+store in block: 174
+store in block: 175
+store in block: 176
+
+create file:F3.txt
+file size: 2048
+generate file node:53
+file block nr:1
+store in block: 177
+
+create file:F4.txt
+file size: 9216
+generate file node:54
+file block nr:5
+store in block: 178
+store in block: 179
+store in block: 180
+store in block: 181
+store in block: 182
+
+create file:F5.txt
+file size: 3584
+generate file node:55
+file block nr:2
+store in block: 183
+store in block: 184
+
+FREE BLOCK Table
+BLOCK[0] stores freeBlockTable
+Block[1]&[2] stores all file heads
+TOP:    79 BOTTOM:   182
+  185   186   187   188   189   190   191   192   193   194 
+  195   196   197   198   199   200   201   202   203   204 
+  205   206   207   208   209   210   211   212   213   214 
+  215   216   217   218   219   220   221   222   223   224 
+  225   226   227   228   229   230   231   232   233   234 
+  235   236   237   238   239   240   241   242   243   244 
+  245   246   247   248   249   250   251   252   253   254 
+  255   256   257   258   259   260   261   262   263   264 
+  265   266   267   268   269   270   271   272   273   274 
+  275   276   277   278   279   280   281   282   283   284 
+  285   286   287   288   289   290   291   292   293   294 
+  295   296   297   298   299   300   301   302   303   304 
+  305   306   307   308   309   310   311   312   313   314 
+  315   316   317   318   319   320   321   322   323   324 
+  325   326   327   328   329   330   331   332   333   334 
+  335   336   337   338   339   340   341   342   343   344 
+  345   346   347   348   349   350   351   352   353   354 
+  355   356   357   358   359   360   361   362   363   364 
+  365   366   367   368   369   370   371   372   373   374 
+  375   376   377   378   379   380   381   382   383   384 
+  385   386   387   388   389   390   391   392   393   394 
+  395   396   397   398   399   400   401   402   403   404 
+  405   406   407   408   409   410   411   412   413   414 
+  415   416   417   418   419   420   421   422   423   424 
+  425   426   427   428   429   430   431   432   433   434 
+  435   436   437   438   439   440   441   442   443   444 
+  445   446   447   448   449   450   451   452   453   454 
+  455   456   457   458   459   460   461   462   463   464 
+  465   466   467   468   469   470   471   472   473   474 
+  475   476   477   478   479   480   481   482   483   484 
+  485   486   487   488   489   490   491   492   493   494 
+  495   496   497   498   499     3     4     5     6     9 
+   10    14    15    19    20    25    26    27    32    33 
+   34    40    41    44    45    46    47    48    53    54 
+   55    56    61    62    63    64    65    68    69    70 
+   71    74    75    76    77    83    84    85    90    91 
+   97    98    99   100   106   107   108   111   112   116 
+  117   118   121   122   123   124   129   130   131   132 
+  135   136   139   140   141   142   143   146   147   153 
+  154   155   156   157   163   164   165 
+
+file node:       51
+file name:       F1.txt
+file size:              7168
+file block_nr:             4
+file block[ 0]          170
+file block[ 1]          171
+file block[ 2]          172
+file block[ 3]          173
+
+file node:       52
+file name:       F2.txt
+file size:              5120
+file block_nr:             3
+file block[ 0]          174
+file block[ 1]          175
+file block[ 2]          176
+
+file node:       53
+file name:       F3.txt
+file size:              2048
+file block_nr:             1
+file block[ 0]          177
+
+file node:       54
+file name:       F4.txt
+file size:              9216
+file block_nr:             5
+file block[ 0]          178
+file block[ 1]          179
+file block[ 2]          180
+file block[ 3]          181
+file block[ 4]          182
+
+file node:       55
+file name:       F5.txt
+file size:              3584
+file block_nr:             2
+file block[ 0]          183
+file block[ 1]          184

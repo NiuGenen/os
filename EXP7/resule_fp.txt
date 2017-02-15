@@ -1,0 +1,406 @@
+Resource :  9  3  6
+Availavle :  9  3  6
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+[ 0] request [ 1  0  0]
+Availavle :  8  3  6
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+Set :  0  1  2  3 
+Safe for  0 ava[ 9  3  6]
+Safe for  1 ava[ 9  3  6]
+Safe for  2 ava[ 9  3  6]
+Safe for  3 ava[ 9  3  6]
+Safe_seq : 0 1 2 3 
+Resource :  9  3  6
+Availavle :  8  3  6
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+---------------------------------
+Resource :  9  3  6
+Availavle :  8  3  6
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+[ 1] request [ 6  1  2]
+Availavle :  2  2  4
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 0  0  0 
+ 0  0  0 
+Set :  0  1  2  3 
+Safe for  0 ava[ 3  2  4]
+Safe for  1 ava[ 9  3  6]
+Safe for  2 ava[ 9  3  6]
+Safe for  3 ava[ 9  3  6]
+Safe_seq : 0 1 2 3 
+Resource :  9  3  6
+Availavle :  2  2  4
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 0  0  0 
+ 0  0  0 
+---------------------------------
+Resource :  9  3  6
+Availavle :  2  2  4
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 0  0  0 
+ 0  0  0 
+[ 2] request [ 2  1  1]
+Availavle :  0  1  3
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 2  1  1 
+ 0  0  0 
+Set :  0  1  2  3 
+Safe for  1 ava[ 6  2  5]
+Safe for  0 ava[ 7  2  5]
+Safe for  2 ava[ 9  3  6]
+Safe for  3 ava[ 9  3  6]
+Safe_seq : 1 0 2 3 
+Resource :  9  3  6
+Availavle :  0  1  3
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 2  1  1 
+ 0  0  0 
+---------------------------------
+Resource :  9  3  6
+Availavle :  0  1  3
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 2  1  1 
+ 0  0  0 
+[ 3] request [ 0  0  2]
+Availavle :  0  1  1
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 2  1  1 
+ 0  0  2 
+Set :  0  1  2  3 
+Safe for  1 ava[ 6  2  3]
+Safe for  0 ava[ 7  2  3]
+Safe for  2 ava[ 9  3  4]
+Safe for  3 ava[ 9  3  6]
+Safe_seq : 1 0 2 3 
+Resource :  9  3  6
+Availavle :  0  1  1
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 2  1  1 
+ 0  0  2 
+---------------------------------
+Resource :  9  3  6
+Availavle :  0  1  1
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 2  1  1 
+ 0  0  2 
+[ 0] request [ 2  2  2]
+No [0][2 2 2]: request more than available
+---------------------------------
+Resource :  9  3  6
+Availavle :  0  1  1
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  2 
+ 2  1  1 
+ 0  0  2 
+[ 1] request [ 0  0  1]
+Availavle :  0  1  0
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  3 
+ 2  1  1 
+ 0  0  2 
+Set :  0  1  2  3 
+Safe for  1 ava[ 6  2  3]
+Safe for  0 ava[ 7  2  3]
+Safe for  2 ava[ 9  3  4]
+Safe for  3 ava[ 9  3  6]
+Safe_seq : 1 0 2 3 
+Resource :  9  3  6
+Availavle :  0  1  0
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 6  1  3 
+ 2  1  1 
+ 0  0  2 
+[ 1] Finished!
+Resource :  9  3  6
+Availavle :  6  2  3
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 0  0  0 
+ 2  1  1 
+ 0  0  2 
+---------------------------------
+Resource :  9  3  6
+Availavle :  6  2  3
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 1  0  0 
+ 0  0  0 
+ 2  1  1 
+ 0  0  2 
+[ 0] request [ 2  2  2]
+Availavle :  4  0  1
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 3  2  2 
+ 0  0  0 
+ 2  1  1 
+ 0  0  2 
+Set :  0  2  3 
+Safe for  0 ava[ 7  2  3]
+Safe for  2 ava[ 9  3  4]
+Safe for  3 ava[ 9  3  6]
+Safe_seq : 0 2 3 
+Resource :  9  3  6
+Availavle :  4  0  1
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 3  2  2 
+ 0  0  0 
+ 2  1  1 
+ 0  0  2 
+[ 0] Finished!
+Resource :  9  3  6
+Availavle :  7  2  3
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 2  1  1 
+ 0  0  2 
+---------------------------------
+Resource :  9  3  6
+Availavle :  7  2  3
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 2  1  1 
+ 0  0  2 
+[ 2] request [ 1  0  3]
+Availavle :  6  2  0
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 3  1  4 
+ 0  0  2 
+Set :  2  3 
+Safe for  2 ava[ 9  3  4]
+Safe for  3 ava[ 9  3  6]
+Safe_seq : 2 3 
+Resource :  9  3  6
+Availavle :  6  2  0
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 3  1  4 
+ 0  0  2 
+[ 2] Finished!
+Resource :  9  3  6
+Availavle :  9  3  4
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+ 0  0  2 
+---------------------------------
+Resource :  9  3  6
+Availavle :  9  3  4
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+ 0  0  2 
+[ 3] request [ 4  2  0]
+Availavle :  5  1  4
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+ 4  2  2 
+Set :  2  3 
+Safe for  3 ava[ 9  3  6]
+Safe for  2 ava[ 9  3  6]
+Safe_seq : 3 2 
+Resource :  9  3  6
+Availavle :  5  1  4
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+ 4  2  2 
+[ 3] Finished!
+Resource :  9  3  6
+Availavle :  9  3  6
+Cliam
+ 3  2  2 
+ 6  1  3 
+ 3  1  4 
+ 4  2  2 
+Allocation
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+ 0  0  0 
+---------------------------------

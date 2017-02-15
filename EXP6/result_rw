@@ -1,0 +1,99 @@
+niugen@niugenen:~/文档/OS/EXP6$ ./rw -f nn
+mmap filename : [3] nn
+constructing
+[ 22546] read e
+[ 22546] read f
+[ 0][65][A]
+[ 1][66][B]
+[ 2][67][C]
+[ 3][68][D]
+[ 4][69][E]
+[ 5][70][F]
+sem_wsem = 1
+sem_x = 2
+[ 22567] read A
+[ 22568] write: a
+[ 22567] read B
+[ 22568] write: b
+[ 22567] read C
+[ 22567] read D
+[ 22567] read E
+[ 22567] read F
+[ 22569] read a
+[ 22568] write: c
+[ 22569] read b
+[ 22568] write: d
+[ 22569] read c
+[ 22568] write: e
+[ 22569] read d
+[ 22568] write: f
+[ 22572] read a
+[ 22569] read e
+[ 22570] write: a
+[ 22570] write: b
+[ 22572] read b
+[ 22570] write: c
+[ 22570] write: d
+[ 22570] write: e
+[ 22570] write: f
+[ 22571] read a
+[ 22569] read f
+[ 22572] read c
+[ 22571] read b
+[ 22572] read d
+[ 22571] read c
+[ 22572] read e
+[ 22571] read d
+[ 22572] read f
+[ 22571] read e
+[ 22571] read f
+
+
+niugen@niugenen:~/文档/OS/EXP6$ ./rw -f nn
+mmap filename : [3] nn
+constructing
+[ 0][65][A]
+[ 1][66][B]
+[ 2][67][C]
+[ 3][68][D]
+[ 4][69][E]
+[ 5][70][F]
+sem_wsem = 1
+sem_x = 1
+[ 22597] read A
+[ 22597] read B
+[ 22597] read C
+[ 22597] read D
+[ 22597] read E
+[ 22597] read F
+[ 22598] write: a
+[ 22599] read a
+[ 22600] read a
+[ 22599] read B
+[ 22598] write: b
+[ 22598] write: c
+[ 22598] write: d
+[ 22598] write: e
+[ 22598] write: f
+[ 22601] write: a
+[ 22600] read b
+[ 22602] read a
+[ 22599] read c
+[ 22601] write: b
+[ 22602] read b
+[ 22599] read d
+[ 22600] read c
+[ 22602] read c
+[ 22599] read e
+[ 22600] read d
+[ 22602] read d
+[ 22599] read f
+[ 22600] read e
+[ 22601] write: c
+[ 22602] read e
+[ 22600] read f
+[ 22601] write: d
+[ 22602] read f
+[ 22601] write: e
+[ 22601] write: f
+

@@ -1,0 +1,82 @@
+niugen@niugenen:~/文档/OS/EXP6$ ./sig -f mm
+mmap filename : [3] mm
+constructing
+[ 0][65][A]
+[ 1][66][B]
+[ 2][67][C]
+[ 3][68][D]
+[ 4][69][E]
+[ 5][70][F]
+[ 6][71][G]
+[ 7][72][H]
+[ 8][73][I]
+[ 9][74][J]
+[10][75][K]
+sem_s = 1
+sem_n = 0
+sem_e = 11
+Produce: a
+Produce: b
+Produce: c
+Produce: d
+Produce: e
+Produce: f
+Comsume: a
+Produce: g
+Comsume: b
+Produce: h
+Comsume: c
+Produce: i
+Comsume: d
+Produce: j
+Comsume: e
+Produce: k
+Comsume: f
+Comsume: g
+Comsume: h
+Comsume: i
+Comsume: j
+Comsume: k
+
+
+
+niugen@niugenen:~/文档/OS/EXP6$ ./sig -f mm
+mmap filename : [3] mm
+constructing
+[ 0][65][A]
+[ 1][66][B]
+[ 2][67][C]
+[ 3][68][D]
+[ 4][69][E]
+[ 5][70][F]
+[ 6][71][G]
+[ 7][72][H]
+[ 8][73][I]
+[ 9][74][J]
+[10][75][K]
+sem_s = 1
+sem_n = 0
+sem_e = 11
+Produce: a
+Produce: b
+Produce: c
+Comsume: a
+Produce: d
+Comsume: b
+Produce: e
+Comsume: c
+Produce: f
+Comsume: d
+Produce: g
+Comsume: e
+Produce: h
+Comsume: f
+Produce: i
+Comsume: g
+Produce: j
+Comsume: h
+Produce: k
+Comsume: i
+Comsume: j
+Comsume: k
+
